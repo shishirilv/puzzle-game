@@ -1,0 +1,47 @@
+h1 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 72px;
+    background: -webkit-linear-gradient(white, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    background:linear-gradient(to bottom right,orange 3%,yellow 100%);;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    cursor: pointer;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   

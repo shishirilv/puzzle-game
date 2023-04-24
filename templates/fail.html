@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/index.css"/>
+</head>
+<body>
+  <center>
+    <h1>Better Luck Next Time........!</h1>
+    <h2 id="ans"></h2>
+    <a href="http://127.0.0.1:8000/"><button class="btn btn-primary">Restart game</button></a>
+  </center>
+  <script>
+    var s=localStorage.getItem("n");
+    var a;
+    if(s==1)
+    {
+        a="Salman Khan";
+    }
+    if(s==2)
+    {
+        a="hrithik roshan";
+    }
+    if(s==3)
+    {
+        a="Shahrukh khan";
+    }
+    if(s==4)
+    {
+        a="prabhas";
+    }
+    if(s==5)
+    {
+        a="Dhanush";
+    }
+    let ans=document.getElementById("ans");
+    ans.textContent="The answer is "+a;
+  </script>
+</body>
+</html>
